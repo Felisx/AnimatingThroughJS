@@ -8,18 +8,35 @@ img {
   width: 150px;
   margin: 100px auto;
 }
-button {
-  background: #dae1e4;
+
+.spoilerButton {
+  background: #fff;
   border: none;
   border-radius: 5px;
-  color: #1d3c6a;
+  color: #00008b;
   font-size: 24px;
-  width: 480px;
   padding: 40px 0;
-  margin: 0px -20px;
   outline: none;
   cursor: pointer;
+  margin: 0 auto 20px;
+  width: 480px;
+  display: block;
 }
+.spoilerButton2 {
+  background: #00008b;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 24px;
+  padding: 40px 0;
+  outline: none;
+  cursor: pointer;
+  margin: 0 auto 20px;
+  width: 480px;
+  display: block;
+}
+
+
 .spoiler {
 	background: #1d3c6a;
   width: 440px;
@@ -27,6 +44,19 @@ button {
   border-radius: 5px;
   text-align: center;
   font-size: 24px
+}
+.spoiler2 {
+	background: #1d3c6a;
+  width: 440px;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 24px
+}
+.spoiler2 span {
+  color: #dae1e4;
+  display: block;
+  padding: 40px 20px;
 }
 .spoiler span {
   color: #dae1e4;
